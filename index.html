@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menuBtn{
+            padding: .5em;
+            border: none;
+            background: none;
+            display: none;
+            flex-direction: column;
+            gap: .25rem;
+            margin-left: auto;
+            cursor: pointer;
+        }
+
+        .menuBtn div{
+            border: 2px solid #f2f2f2;
+            width: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .menuBtn{
+                display: flex;
+            }
+            nav{
+                display: none;
+            }
+        }
+    </style>
+    <title>Ayomide Olaleye - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logoContainer">
+                <a href="#avatar"><img src="avater.jpg" alt="profile picture" class="avatar"></a>
+                <a href="#" class="closebtn">
+                    <div class="modalContainer" id="avatar">
+                        <img src="avater.jpg" alt="profile picture">
+                    </div>
+                </a>
+                <h1 class="logo">Ayomide</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </nav>
+            <button class="menuBtn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="introduction">
+            <p class="introduction-text">
+                Hey there, my name is <span class="name">Ayomide,</span> I am a <span class="role">Frontend Web Developer</span>, Welcome to my portfolio website
+            </p>
+            <img src="hero--image.png" alt="hero--image" class="hero--image">
+        </section>
+        <section class="form">
+            <form name="email-signup" action="" netlify>
+                <h2 class="description">Kindly Signup To My Weekly News Letter.</h2>
+                <input type="email" placeholder="Enter email">
+                <button class="btn">SIGN UP</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+<!-- mesh: 08023107828 -->
+    </footer>
+</body>
+</html>
