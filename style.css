@@ -188,4 +188,19 @@ form h2{
     form .btn, form input{
         grid-column: span 2;
     }
+    .introduction{
+        font-size: 2rem;
+    }
+    
+    .introduction-text{
+        font-size: 1.2rem;
+    }
+    
+    .name{
+        font-size: 2rem;
+    }
+    
+    .role{
+        font-size: 1.5rem;
+    }
 }
